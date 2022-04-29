@@ -1,0 +1,529 @@
+
+.hight{
+    height: 400px;
+   border-top: .5px solid rgba(0, 0, 0, 0.098);
+  
+}
+.tag ul {
+    display: flex;
+    /* align-items: center; */
+    list-style: none;
+
+
+
+}
+.tag ul li a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 0px;
+    color: #fff;
+}
+.padding{
+    padding-right: 25px !important;
+
+}
+.storyBox{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+}
+.ourImg{
+    width: 45%;
+    height: 400px;
+    /* background-color: red; */
+    margin: 20px 20px 10px 20px ;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    /* padding: 10px; */
+    /* z-index: -1; */
+
+}
+.ourImg::after{
+    content: "";
+    height: 200px;
+    width: 43%;
+    border-top-left-radius: 50% ;
+    border-top-right-radius: 50% ;
+    background-color: #1212128e;
+    position: absolute;
+    
+}
+.story{
+    margin: 5px;
+    color: #fff;
+    z-index: 999;
+    cursor: pointer;
+}
+.simg1{
+    background: url('/img/cloths.jpg') no-repeat center center/cover;
+}
+.simg2{
+    background: url('/img/child.jpg') no-repeat center center/cover;
+}
+.simg3{
+    background: url('/img/layer.jpg') no-repeat center center/cover;
+}
+.simg4{
+    background: url('/img/save.jpg') no-repeat center center/cover;
+}
+
+.storyfooter{
+    background-color: #222221;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0px;
+
+}
+
+
+/* work css  */
+.workBg{
+    background: url('/img/meals.jpg') no-repeat center center/cover;
+  
+}
+.left{
+   padding: 40px;
+   color: #fff;
+    text-align: left;
+}
+.width{
+    width: 30%;
+    font-size: 22px;
+}
+.workCenter{
+    text-align: left;
+    padding: 20px;
+}
+.serviceInfo{
+    background:#f0f0f0 ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 50px ;
+
+}
+.infoleft{
+    width: 50%;
+    height: 100%;
+}
+.infoRight{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.infoImg{
+    width: 95%;
+    height: 90%;
+    /* border: 2px solid black; */
+}
+
+
+.infoImg img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.infoPara{
+    font-size: 25px;
+    padding: 15px 0px;
+
+}
+.infohead{
+    font-size: 32px;
+
+}
+.infoHead{
+    font-size: 1.75rem;
+    line-height: 1.14286;
+}
+
+.infoleft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.infoContent{
+    width: 80%;
+    height: 90%;
+}
+.reverse{
+    /* justify-content: re; */
+    flex-direction: row-reverse;
+    background-color: #fff;
+}
+
+
+/* about pagae css  */
+
+.aboutbg{
+    background: url('/img/about.jpg') no-repeat center center/cover;
+    
+}
+
+.text-align{
+    text-align: left;
+    color: #fff;
+    padding: 100px 0px 0px 40px;
+}
+.aboutPara p{
+    font-size: 22px;
+    width: 40%;
+    margin-top: 20px;
+
+}
+
+.aboutPage{
+    width: 100%;
+    /* height: 2000px; */
+    background: #fff;
+    padding: 50px 20px 20px 20px;
+}
+.save{
+
+}
+
+.history{
+
+}
+.howdo{
+border: 2px solid black;
+height: 400px;
+color: #fff;
+background: url('https://images.unsplash.com/photo-1509099836639-18ba1795216d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80') no-repeat center center/cover;
+
+
+}
+.howHeading h2{
+    font-size: 25px;
+    text-align: center;
+}
+.flex{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+
+.aboutHeading{
+    font-size: 2.25rem;
+    line-height: 1.11111;
+    margin: 32px 0;
+}
+
+.pagePara{
+    font-size: 1.5rem;
+    line-height: 1.33333;
+    margin-bottom: 24px;
+    margin-top: 0;
+}
+.ourTrust{
+  
+}
+
+
+
+/* // involbed css  */
+
+.involvedBg{
+    background: url('/img/involved.jpg') no-repeat center center/cover;
+   color: #fff;
+   z-index: 999;
+
+}
+.index{
+    z-index: 999;
+
+}
+.involvedBg::before{
+    content: "";
+    width: 100%;
+    height: 550px;
+    top: 136px;
+    position: absolute;
+    background-color: #12121253;
+
+}
+.teamHeading{
+    font-size: 38px;
+    padding: 10px 0px;
+}
+
+.m4{
+    margin-left: 50px;
+}
+
+/* get in touch */
+
+.sendMessage{
+   height: 500px;    
+   width: 100%;
+   border: 2px solid black;
+   background: url('/img/contact.jpg') no-repeat center center/cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.sendPara, .sendHeading{
+    text-align: left;
+    color: #fff;
+}
+.sendHeading{
+    font-size: 38px;
+    margin: 10px 0px;
+}
+.sendPara{
+    font-size: 22px;
+}
+.sendContent{
+  padding : 0px 20px;
+   width: 30%;
+}
+.emailUs{
+    /* height: 400px; */
+    padding: 50px 0px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+.emailPara h3{
+ margin: 20px 0px;
+ font-size: 28px;
+}
+.from-group input{
+    padding: 15px 30px;
+    /* position: absolute; */
+}
+#email{
+    width: 400px;
+    
+}
+#submitBtn{
+    /* width: 200px; */
+    position: absolute;
+}
+.contactUs{
+    padding: 0px 50px;
+    margin-bottom: 50px;
+}
+.contactUs ul li span{
+    color: #06679b;
+}
+.contactUs ul li{
+  text-align: left;
+  font-size: 25px;
+}
+.contact h2{
+    font-size: 28px;
+    margin: 20px 0px;
+}
+
+
+
+
+
+div.scrollmenu {
+    /* background-color: #333; */
+    overflow: auto;
+    white-space: nowrap;
+    height: 400px;
+    text-align: center;
+    overflow-y: hidden; 
+
+  }
+  
+  div.scrollmenu .imgArea {
+    display: inline-block !important;
+    color: white;
+    text-align: center;
+    margin: 20px 10px;
+    text-decoration: none;
+    height: 90%;
+    width: 300px;
+    background-color: #121212;
+  }
+  .docs{
+      padding: 10px;
+  }
+  .imgArea img{
+      width: 100%;
+      height: 100%;
+
+  }
+  div.scrollmenu .imgArea:hover {
+    background-color: #777;
+  }
+
+  .infoCards{
+    height: 500px;
+    background: #06679b;
+    position: relative;
+  
+
+    
+}
+.cards{
+    
+    background-color: #222221;
+    color: #fff;
+    /* width: 50%; */
+    width: 400px;
+    height: 90%;
+    margin: 0px 10px;
+    /* position: absolute; */
+
+
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+.cards:hover{
+    background-color: #777;
+}
+
+/* .cards img{
+    width: 100%;
+    height: 100%;
+} */
+  .img{
+      border: 2px solid #fff;
+      height: 100px;
+      width: 100px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (Image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+
+  .map{
+      height: 600px;
+      background: #121212;
+      /* background: #06679b; */
+      color: #fff;
+  }
+  .address{
+    width: 30%;
+    height: 600px;
+    padding: 20px;
+
+  }
+  .googleMap{
+     width: 70%;
+     height: 600px;
+
+  }
+  .googleMap iframe{
+      width: 100%;
+      height: 100%;
+  }
+  .open{
+      list-style-type: none;
+  }
+  .open li{
+    margin: 10px 0px;
+   font-size: 18px;
+  }
+  .mx-4{
+      margin-left: -10px !important;
+      padding: 10px !important;
+  }

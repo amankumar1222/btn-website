@@ -1,0 +1,827 @@
+@media screen and (max-width: 1202px) {
+    #navbar {
+        padding: 0px 10px !important;
+    }
+
+    #navlist li {
+        padding: 0px 5px;
+        margin: 0px 10px;
+    }
+
+    .donateInput {
+        padding: 0px 50px;
+    }
+
+    .subText {
+        width: 40%;
+    }
+
+   
+
+}
+
+.prev,
+.next {
+    background-color: #f0f0f05e;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1050px) {
+    #navbar {
+        padding: 0px 10px !important;
+    }
+
+    .logo a {
+        font-size: 18px;
+    }
+
+    #navlist li {
+        padding: 10px 0px;
+        margin: px 0px;
+        border: none;
+    }
+
+    #navlist li a {
+
+        font-size: 16px;
+    }
+
+    #navlist li a:hover {
+        color: #da291c;
+        border: none;
+        padding-bottom: 0px;
+
+    }
+
+    #btn {
+        font-size: 18px !important;
+        padding: 10px 15px !important;
+    }
+
+    .quick-donate {
+        width: 100%;
+        background: #f0f0f0;
+        /* text-align: center; */
+        padding: 50px 0px;
+
+    }
+
+    .donateInput {
+        padding: 0px 20px;
+        justify-content: center;
+
+    }
+
+    .donateText,
+    .Btn,
+    .form-group input {
+        margin: 0px 10px;
+    }
+
+    .Btn {
+        padding: 15px 20px;
+    }
+
+    .subText {
+        width: 50%;
+    }
+    .width{
+        width: 50%;
+    }
+ 
+    .infohead{
+        font-size: 30px;
+  
+    }
+    .infoPara{
+        font-size: 22px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 900px) {
+    #social {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .logo img {
+        width: 80px;
+    }
+
+    .logo a {
+        display: none;
+
+    }
+
+    #navlist li {
+        margin: 0px 5px;
+    }
+
+    .ctWidth {
+        width: 80%;
+    }
+
+    .name span {
+        font-size: 38px;
+    }
+
+    .donateInput {
+        padding: 0px 10px;
+        flex-direction: column;
+    }
+
+    .donateText h3 {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+
+    .form-group input {
+        padding: 15px 20px;
+        width: 500px;
+    }
+
+    .form-group::before {
+        left: -40px;
+        top: 22px;
+
+    }
+
+    .donateText {
+        font-size: 28px;
+    }
+
+    .Btn,
+    .form-group input {
+        margin: 30px 0px;
+    }
+
+    .childIcon i {
+        font-size: 50px;
+        background-color: #b91004;
+        color: #fff;
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .resphead h2 {
+        font-size: 28px;
+    }
+
+    .my-4 {
+        font-size: 22px;
+    }
+
+    .respChild {
+        height: 500px;
+    }
+
+    .childBox {
+        width: 50%;
+    }
+
+    .subHeading h1 {
+        font-size: 38px;
+    }
+
+    .subPara p {
+        font-size: 18px;
+    }
+
+    .subBtn a {
+        padding: 10px 15px !important;
+        font-size: 14px !important;
+    }
+    .ourTeam{
+        padding: 20px 50px 20px 20px;
+      
+      }
+      .boxarea{ 
+        width: 90%;
+
+    }
+    .testBox{ 
+        width: 80%;
+    }
+    .next1{
+        left: 50px;
+    }
+    .next2{
+        right: 50px;
+    }
+    .fsize{
+        font-size: 22px;
+    }
+    .hsize h2{
+        font-size: 28px !important;
+    }
+    .coHight{
+     height: 370px !important;
+    }
+
+    .infohead{
+        font-size: 28px;
+  
+    }
+    .infoPara{
+        font-size: 20px;
+    }
+
+    .sendContent{
+        width: 50%;
+    }
+
+    .emailPara h3{
+        padding: 0px 50px;
+    }
+
+}
+@media screen and (max-width: 750px) {
+    .member{
+        padding: 10px 0px;
+    }
+    .memberName h4{
+        font-size: 18px;
+        margin: 0px 0px 10px 20px;
+    }
+    .memberName span{
+        font-size: 16px;
+        margin: 0px 0px 0px 20px;
+    }
+    
+    .img img{
+        width: 120px;
+        height: 120px;
+    }
+    .respPara{
+        font-size: 22px;
+    }
+    .respHeading{
+        font-size: 28px !important;
+    }
+    .coHight{
+        height: 420px !important;
+       }
+
+
+       .infohead{
+        font-size: 30px;
+  
+    }
+    .infoPara{
+        font-size: 22px;
+    }
+    .flex-column{
+        flex-direction: column-reverse;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .w100{
+        width: 100%;
+
+    }
+   
+    .infoImg{
+      text-align: center;
+    }
+    .w100 img{
+        width: 85%;
+    }
+    .aboutHeading{
+        font-size: 2rem;
+    }
+    .pagePara{
+
+    }
+    .map{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .address{
+      width: 90%;
+     height: auto;
+  
+    }
+    .googleMap{
+       width: 90%;
+   height: 500px;
+   padding-bottom: 10px;
+    }
+    .googleMap iframe{
+        width: 100%;
+        height: 100%;
+    }
+    .emailPara h3{
+        padding: 0px 50px;
+        font-size: 25px;
+    }
+  
+}
+
+@media screen and (max-width: 650px) {
+    #navbar {
+        flex-direction: column;
+        padding: 10px 10px !important;
+        height: auto;
+
+    }
+
+    #navlist {
+        flex-direction: column;
+        display: none;
+        text-align: center;
+    }
+
+    #navlist li {
+        margin: 5px 0px;
+    }
+
+    .name span {
+        font-size: 28px;
+    }
+
+    .logo a {
+        display: flex;
+    }
+
+    .button {
+        margin: 20px;
+    }
+
+    .btn {
+        margin: 55px 0px;
+    }
+
+    #burger {
+        display: block;
+    }
+
+    .ctWidth h1 {
+        font-size: 38px;
+
+    }
+
+    .ctWidth p {
+        font-size: 18px;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+
+    .ct2 {
+        margin: 0px 50px;
+        margin-top: 80px;
+
+    }
+
+    .ct2 h1 {
+        font-size: 28px;
+    }
+
+    .ct2 p {
+        font-size: 16px;
+
+    }
+
+    .name span {
+        font-size: 38px;
+    }
+
+    .contentHeadidng {
+        font-size: 18px;
+        font-weight: 200;
+    }
+
+    .form-group input {
+        padding: 15px 20px;
+        width: 300px;
+    }
+
+    .respChild {
+        height: 750px;
+        padding: 10px 0px !important;
+    }
+
+    .childService {
+        flex-direction: column;
+    }
+
+    .my-4 {
+        margin: 5px;
+    }
+
+    .childIcon {
+        flex-direction: column;
+
+    }
+
+    .childDesc {
+        width: 100%;
+        text-align: center;
+    }
+
+    .childDesc p {
+        padding: 0px 10px;
+    }
+
+    .childBox {
+        width: 50%;
+        padding: 10px 0px;
+    }
+    .subText{
+        width: 60%;
+    }
+
+    .subHeading h1 {
+        font-size: 28px;
+
+    }
+
+    .subPara p {
+        font-size: 16px;
+    }
+
+    .subBtn a {
+        padding: 10px 15px !important;
+        font-size: 14px !important;
+    }
+    .ourTeam{
+        padding: 20px;
+    }
+    .teamBox{
+        /* padding: 10px 0px; */
+        height: 250px;
+    }
+    .mb{
+        margin-top: 15px;
+    }
+    .member{
+        padding: 15px 0px;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .memberName h4{
+        font-size: 18px;
+        margin: 10px 10px 10px 10px;
+    }
+    .memberName span{
+        font-size: 16px;
+        margin: 0px 0px 0px 10px;
+    }
+    
+    .img img{
+        width: 120px;
+        height: 120px;
+    }
+    .vol4{
+        margin-right: 18px;
+    }
+    .respPara{
+        font-size: 18px;
+        padding: 0px 10px;
+    }
+    .respHeading{
+        font-size: 25px !important;
+    }
+    .respHigh{
+        height: 200px;
+    }
+    .next1{
+        left: 20px;
+    }
+    .next2{
+        right: 20px;
+    }
+    .avtar{ 
+        margin: 0px 5px;
+    }
+    .avtarName{
+        margin-left: 5px;
+     }
+     .boxarea{ 
+        width: 90%;
+        height: 100%;
+        
+    }
+    .testBox{ 
+        height: 80%;
+    }
+    .footer{ 
+        font-size: 16px;
+    }
+
+ /* our story  */
+
+ .storyBox{ 
+   flex-direction: column;
+
+ }
+ .ourImg{ 
+     width: 80%;
+ }
+ .ourImg::after{ 
+     width: 75%;
+ }
+
+ .storyPara{ 
+     font-size: 22px;
+ }
+
+
+ /* our work  */
+
+
+
+.width{
+    width: 50%;
+    font-size: 17px;
+}
+
+.workHead{
+    font-size: 28px;
+}
+
+
+.coHight{
+    height: 400px !important;
+   }
+/* start here  */
+.fsize{
+    font-size: 18px;
+}
+.hsize h2{
+    font-size: 25px !important;
+}
+
+.respchild{
+    font-size: 25px;
+}
+.member{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+}
+.m4{
+    padding: 20px 20px 0px 0px;
+
+}
+
+#email{
+ 
+    width: 250px;
+
+    
+    
+}
+.emailPara{
+    text-align: center;
+}
+.emailPara h3{
+    font-size: 22px;
+}
+.emailUs{
+    width: 100%;
+}
+
+#submitBtn{
+     /* margin-right: 50px; */
+}
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .m4{
+        padding: 20px 5px 0px 0px;
+    
+    }
+    .temBox{
+        padding: 0px;
+    }
+    .contactUs ul li{
+        font-size: 18px;
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 450px) {
+    .email {
+        margin: 0px 4px;
+    }
+
+    .icon a i {
+        font-size: 16px;
+        color: #fff;
+        padding: 0px 2px;
+    }
+
+    .ctWidth h1 {
+        font-size: 28px;
+
+    }
+
+    .ctWidth p {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .ct2 {
+        margin: 0px 10px;
+        margin-top: 80px;
+
+    }
+
+    .ct2 h1 {
+        font-size: 28px;
+    }
+
+    .ct2 p {
+        font-size: 16px;
+
+    }
+
+    .name span {
+        font-size: 28px;
+    }
+
+    .contentHeadidng {
+        font-size: 16px;
+        font-weight: 200;
+    }
+
+    .contentPara {
+        font-size: 16px;
+    }
+
+    .logo a {
+        font-size: 14px;
+    }
+
+    .logo img {
+        width: 60px;
+    }
+
+    #social {
+        font-size: 14px;
+    }
+
+    .email {
+        font-size: 14px;
+
+    }
+
+
+    #burger,
+    #close {
+        position: absolute;
+        top: 60px;
+        right: 30px;
+        cursor: pointer;
+        /* display: none; */
+    }
+
+    .donateText h3 {
+        font-size: 25px;
+    }
+
+    .respText {
+        margin-top: 14px;
+    }
+
+    .memberName span{
+        font-size: 14px;
+    }
+    .next1{
+        left: 10px;
+    }
+    .next2{
+        right: 10px;
+    }
+    .avtar{ 
+        margin: 0px 5px;
+    }
+    .avtarName{
+        margin-left: 5px;
+        font-size: 16px;
+     }
+     .review{ 
+         font-size: 16px;
+     }
+     .testHead{
+         font-size: 18px;
+     }
+     .ourImg{ 
+        width: 90%;
+    }
+    .ourImg::after{ 
+        width: 80%;
+    }
+    .storyPara{ 
+        font-size: 18px;
+    }
+    .width{
+        width: 65%;
+        font-size: 16px;
+    }
+    
+    .workHead{
+        font-size: 25px;
+    }
+
+    
+    .coHight{
+        height: 450px !important;
+       }
+    .infohead{
+        font-size: 25px;
+    }
+       .infoPara p{
+           font-size: 20px;
+       }
+    .aboutHeading{
+        font-size: 1.7rem;
+    }
+    .pagePara{
+        font-size: 20px;
+    }
+    .respchild{
+        font-size: 20px;
+    }
+    .member{
+        margin: -4px;
+    }
+  
+    .emailPara h3{
+        font-size: 18px;
+        padding: 0px;
+    }
+    #email{
+        width: 200px;
+        margin-left: -82px;
+    }
+    .emailUs{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 400px) {
+
+    .respChild {
+        height: 850px;
+    }
+    .avtar{ 
+        margin: 0px 2px;
+    }
+    .avtarName h4 , .avtarName span{
+        font-size: 14px;
+     }
+     .review{ 
+         font-size: 14px;
+     }
+     .coHight{
+        height: 500px !important;
+       }
+  
+ .ourTeam{
+    padding: 10px;
+ }
+ .memberName h4 {
+    margin: 8px 1px 10px 8px;
+}
+.sendContent{
+    width: 70%;
+}
+
+
+}
+
+
+@media screen and (max-width: 350px) { 
+.coHight{
+    height: 550px !important;
+   }
+   .memberName h4 {
+    margin: 1px;
+}
+
+}
